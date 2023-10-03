@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+    
+body{
+    font-family: sans-serif
+}
+
+/* ==================navbar================ */
+@font-face {
+    font-family: "MyCustomFont";
+    src: url('fonts/Pacifico/Pacifico-Regular.ttf') format('woff2'),
+         url('fonts/Pacifico/Pacifico-Regular.ttf') format('woff');
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #2f332d;
+    padding: 10px;
+
+}
+
+.navbar a {
+    float: right; /* Float "Cup.O'Joy" to the left */
+    margin-right: 0px; 
+    margin-left: 20px;
+    color: #fffdfa;
+    text-decoration: none;
+}
+
+
+
+.special-font  {
+    font-family: "MyCustomFont";
+}
+
+
+.navbar a:first-child {
+    float: left; /* Float the last item ("Pastries and Drinks") to the right */
+}
+
+
+/* ===================Body================== */
+
+.body img {
+    display: block;
+    width: 500px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.body h1 {
+    text-align: center;
+    color:#2f332d;
+    padding-bottom: 30px;
+}
+
+.body p {
+    text-align: center;
+    color: #2f332d;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+/* ------------------menu 2----------------- */
+
+.submenu {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+}
+
+.submenu a {
+    margin-right: 150px; 
+    margin-left: 150px;
+    color:#2f332d;
+    text-decoration:double;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    
+}
+
+
+/* ====================Imagees 2================ */
+.image-container {
+ display: flex;
+ justify-content: center;
+ padding-bottom: 50px;
+ 
+}
+
+.image-container img {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 350px;
+    
+}
+
+
+
+
+/* ===================Footer================== */
+
+.footer {
+    overflow: hidden;
+    background-color: #2f332d;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.footer a {
+   
+    margin-right: 0px; 
+    margin-left: 20px;
+    color: #fffdfa;
+    text-decoration: none;
+}
